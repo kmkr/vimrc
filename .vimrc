@@ -11,6 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'fugitive.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -26,7 +27,7 @@ filetype plugin indent on    " required
 "
 
 se t_Co=256
-colorscheme badwolf
+colorscheme darktango
 syntax on
 set tabstop=4
 set softtabstop=4
